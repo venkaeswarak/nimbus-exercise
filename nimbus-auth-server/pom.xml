@@ -25,7 +25,12 @@
 			<groupId>com.antheminc.oss</groupId>
 			<artifactId>nimbus-entity-dsl</artifactId>
 		</dependency>
-    
+        <dependency>
+			<groupId>com.antheminc.oss</groupId>
+			<artifactId>nimbus-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+     
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -58,7 +63,11 @@
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-ldap</artifactId>
 		</dependency>
-		
+		<dependency>
+			<groupId>de.flapdoodle.embed</groupId>
+			<artifactId>de.flapdoodle.embed.mongo</artifactId>
+			<scope>test</scope>
+		</dependency> 		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
